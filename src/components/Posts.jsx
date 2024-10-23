@@ -1,10 +1,11 @@
-import classes from './Posts.module.css'
+import classes from "./Posts.module.css"
 
 function Post(props){
     return (
-        <div className = {classes.post}>
+        <div className ={classes.post}>
+            // eslint-disable-next-line react/prop-types
             <p className ={classes.author}>{props.author}</p>
-            <p classNames = {classes.body}>{props.body}</p>
+            <p className ={classes.body}>{props.body}</p>
         </div>
     );
 }
