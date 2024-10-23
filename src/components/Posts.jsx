@@ -1,10 +1,11 @@
-function Post(){
+
+function Post(props){
     return (
         <div>
-            <p>Hi i'am Baskoro </p>
-            <p>React.js is awsome!!!</p>
+            <p>{props.author}</p>
+            <p>{props.body}</p>
         </div>
-    )
+    );
 }
 
 export default Post;
