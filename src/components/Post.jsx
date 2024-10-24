@@ -1,5 +1,5 @@
 
-import classes from "./Posts.module.css"
+import classes from "./Post.module.css"
 
 function Post(props){
     return (

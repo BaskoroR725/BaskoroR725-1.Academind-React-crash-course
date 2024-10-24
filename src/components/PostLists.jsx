@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import Post from './Posts'
+import Post from './Post'
 import classes from "./PostLists.module.css"
 
 function PostList(){

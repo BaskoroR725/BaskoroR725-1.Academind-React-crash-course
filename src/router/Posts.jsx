@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import PostList from "../components/PostLists";
 
-function Post() {
+function Posts() {
 
   return (
     <>
@@ -13,4 +13,4 @@ function Post() {
   )
 }
 
-export default Post;
+export default Posts;
